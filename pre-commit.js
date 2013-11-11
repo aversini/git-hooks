@@ -215,7 +215,7 @@ var run = function (config) {
 };
 
 /**
- * Checking node script parameters and lanching the main method.
+ * Checking node script parameters and starting the main method.
  */
 if (process.argv && process.argv.length > 2) {
   run({
