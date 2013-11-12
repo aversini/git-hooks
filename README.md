@@ -6,7 +6,7 @@
 - pre-commit.js
 - jshintForJs.config
 
-This hook will run jshint over Javascript files that are currently stagged. If jshint finds at least one error in at least one file, the script returns non-zero which in turns prevent the commit. It is divided into 2 files, one bash script (pre-commit) and one node.js script (pre-commit.js) plus a configuration file for jshint (jshintForJs.config)
+This hook will run jshint over Javascript files that are currently staged. If jshint finds at least one error in at least one file, the script returns non-zero which in turns prevent the commit. It is divided into 2 files, one bash script (pre-commit) and one node.js script (pre-commit.js) plus a configuration file for jshint (jshintForJs.config)
 
 To install this hook, you need to copy the 3 afore-mentioned files to your local hook directory, plus the node package file, and install the node dependencies:
 
