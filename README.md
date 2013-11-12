@@ -38,4 +38,4 @@ cp ~/git-hooks/package.json .git/hooks/package.json
 cd .git/hooks; npm install; cd -
 
 ```
-That's it! Next time you try to commit anything, the commit will fail if the comment do not contain a JIRA ticket number or the flag __NO TICKET__.
+That's it! Next time you try to commit anything, the commit will fail if the comment does not contain a JIRA ticket number or the flag __NO TICKET__.
